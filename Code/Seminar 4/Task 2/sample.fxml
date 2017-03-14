@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="commands" layoutX="30.0" layoutY="27.0" prefHeight="318.0" prefWidth="200.0" />
+      <Button layoutX="372.0" layoutY="214.0" mnemonicParsing="false" onAction="#showBtn" prefHeight="25.0" prefWidth="91.0" text="Show" />
+      <Button fx:id="back" layoutX="372.0" layoutY="106.0" mnemonicParsing="false" onAction="#backBrn" prefHeight="25.0" prefWidth="91.0" text="BACK" />
+      <Button fx:id="left" layoutX="281.0" layoutY="69.0" mnemonicParsing="false" onAction="#leftBtn" prefHeight="25.0" prefWidth="91.0" text="LEFT" />
+      <Button fx:id="right" layoutX="463.0" layoutY="69.0" mnemonicParsing="false" onAction="#rightBtn" prefHeight="25.0" prefWidth="91.0" text="RIGHT" />
+      <Button fx:id="fwd" layoutX="372.0" layoutY="27.0" mnemonicParsing="false" onAction="#forwardBtn" prefHeight="25.0" prefWidth="91.0" text="FORWARD" />
+      <Button fx:id="clear" layoutX="85.0" layoutY="355.0" mnemonicParsing="false" onAction="#clearBtn" prefHeight="25.0" prefWidth="91.0" text="Clear" />
+      <Button layoutX="372.0" layoutY="355.0" mnemonicParsing="false" onAction="#okBtn" prefHeight="25.0" prefWidth="91.0" text="OK" />
+   </children>
+</AnchorPane>
