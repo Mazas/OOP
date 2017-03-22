@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="274.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+   <children>
+      <Button layoutX="30.0" layoutY="225.0" maxWidth="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#back" prefWidth="75.0" text="Back" />
+      <Button layoutX="226.0" layoutY="225.0" maxWidth="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#compare" prefWidth="75.0" text="Compare" />
+      <TextField fx:id="number1" layoutX="68.0" layoutY="112.0" prefHeight="25.0" prefWidth="75.0" promptText="Number 1" />
+      <TextField fx:id="number2" layoutX="189.0" layoutY="112.0" prefHeight="25.0" prefWidth="75.0" promptText="Number 2" />
+      <Label fx:id="result" layoutX="94.0" layoutY="65.0" prefHeight="17.0" prefWidth="138.0" text="Smallest number" />
+   </children>
+</AnchorPane>
